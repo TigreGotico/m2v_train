@@ -1,175 +1,176 @@
 # Model Evaluation Metrics Summary
 ## multilingual - Model: Jarbas/m2v-256-LaBSE
-### Accuracy: 0.9899879287083718
-### F1 Score: 0.989524081839897
-### Cohen Kappa Score: 0.9891526640674289
-### Matthews Corrcoef Score: 0.9891536875768246
+### Accuracy: 0.9908110522621403
+### F1 Score: 0.9904685773916992
+### Cohen Kappa Score: 0.9901603739949483
+### Matthews Corrcoef Score: 0.9901614185247516
 ### Classification Report:
 ```
                                                                               precision    recall  f1-score   support
 
-                                                   common_query:common_query       0.93      0.94      0.93        84
-                                                                    ocp:play       0.99      1.00      1.00       154
-                               ovos-skill-alerts.openvoiceos:AddListSubitems       0.87      1.00      0.93        13
-                                  ovos-skill-alerts.openvoiceos:CalendarList       0.60      1.00      0.75         3
-                                   ovos-skill-alerts.openvoiceos:CancelAlert       1.00      1.00      1.00         7
-                              ovos-skill-alerts.openvoiceos:ChangeProperties       1.00      0.67      0.80         3
-                                   ovos-skill-alerts.openvoiceos:CreateAlarm       0.81      0.93      0.87        14
-                                   ovos-skill-alerts.openvoiceos:CreateEvent       1.00      0.60      0.75         5
+                                                   common_query:common_query       0.91      0.99      0.95        84
+                                                                    ocp:play       1.00      1.00      1.00       154
+                               ovos-skill-alerts.openvoiceos:AddListSubitems       0.86      0.92      0.89        13
+                                  ovos-skill-alerts.openvoiceos:CalendarList       1.00      1.00      1.00         3
+                                   ovos-skill-alerts.openvoiceos:CancelAlert       0.88      1.00      0.93         7
+                              ovos-skill-alerts.openvoiceos:ChangeProperties       1.00      1.00      1.00         3
+                                   ovos-skill-alerts.openvoiceos:CreateAlarm       0.90      0.64      0.75        14
+                                   ovos-skill-alerts.openvoiceos:CreateEvent       1.00      0.80      0.89         5
                                     ovos-skill-alerts.openvoiceos:CreateList       1.00      1.00      1.00         7
-                                ovos-skill-alerts.openvoiceos:CreateOcpAlarm       0.00      0.00      0.00         2
-                                ovos-skill-alerts.openvoiceos:CreateReminder       0.89      0.89      0.89         9
-                                   ovos-skill-alerts.openvoiceos:CreateTimer       0.83      1.00      0.91         5
-                                       ovos-skill-alerts.openvoiceos:DAVSync       1.00      0.33      0.50         3
+                                ovos-skill-alerts.openvoiceos:CreateOcpAlarm       1.00      0.50      0.67         2
+                                ovos-skill-alerts.openvoiceos:CreateReminder       0.78      0.78      0.78         9
+                                   ovos-skill-alerts.openvoiceos:CreateTimer       1.00      1.00      1.00         5
+                                       ovos-skill-alerts.openvoiceos:DAVSync       1.00      1.00      1.00         3
                                     ovos-skill-alerts.openvoiceos:DeleteList       1.00      0.75      0.86         4
-                             ovos-skill-alerts.openvoiceos:DeleteListEntries       0.88      0.88      0.88         8
-                             ovos-skill-alerts.openvoiceos:DeleteTodoEntries       0.88      0.88      0.88         8
-                                    ovos-skill-alerts.openvoiceos:ListAlerts       0.89      0.94      0.92        18
+                             ovos-skill-alerts.openvoiceos:DeleteListEntries       0.80      1.00      0.89         8
+                             ovos-skill-alerts.openvoiceos:DeleteTodoEntries       0.83      0.62      0.71         8
+                                    ovos-skill-alerts.openvoiceos:ListAlerts       0.94      0.89      0.91        18
                               ovos-skill-alerts.openvoiceos:QueryListEntries       0.67      0.50      0.57         4
-                                ovos-skill-alerts.openvoiceos:QueryListNames       0.75      1.00      0.86         3
-                              ovos-skill-alerts.openvoiceos:QueryTodoEntries       1.00      1.00      1.00         3
-                               ovos-skill-alerts.openvoiceos:RescheduleAlert       0.75      0.75      0.75         4
-                                   ovos-skill-alerts.openvoiceos:TimerStatus       0.50      1.00      0.67         1
+                                ovos-skill-alerts.openvoiceos:QueryListNames       1.00      0.67      0.80         3
+                              ovos-skill-alerts.openvoiceos:QueryTodoEntries       0.75      1.00      0.86         3
+                               ovos-skill-alerts.openvoiceos:RescheduleAlert       1.00      0.25      0.40         4
+                                   ovos-skill-alerts.openvoiceos:TimerStatus       1.00      1.00      1.00         1
                           ovos-skill-alerts.openvoiceos:missed_alerts.intent       1.00      1.00      1.00      1359
-               ovos-skill-audio-recording.openvoiceos:start_recording.intent       1.00      0.99      1.00       180
-                   ovos-skill-boot-finished.openvoiceos:are_you_ready.intent       1.00      1.00      1.00        67
+               ovos-skill-audio-recording.openvoiceos:start_recording.intent       0.99      1.00      0.99       180
+                   ovos-skill-boot-finished.openvoiceos:are_you_ready.intent       0.94      1.00      0.97        67
       ovos-skill-boot-finished.openvoiceos:disable_ready_notification.intent       1.00      1.00      1.00      2187
        ovos-skill-boot-finished.openvoiceos:enable_ready_notification.intent       1.00      1.00      1.00      2601
                             ovos-skill-camera.openvoiceos:have_camera.intent       1.00      1.00      1.00         6
                            ovos-skill-camera.openvoiceos:take_picture.intent       1.00      1.00      1.00         2
-ovos-skill-color-picker.krisgesling.openvoiceos:request-color-by-name.intent       0.00      0.00      0.00         1
-                      ovos-skill-confucius-quotes.openvoiceos:ConfuciusBirth       0.00      0.00      0.00         1
-                      ovos-skill-confucius-quotes.openvoiceos:ConfuciusDeath       0.50      1.00      0.67         1
+ovos-skill-color-picker.krisgesling.openvoiceos:request-color-by-name.intent       1.00      1.00      1.00         1
+                      ovos-skill-confucius-quotes.openvoiceos:ConfuciusBirth       1.00      1.00      1.00         1
+                      ovos-skill-confucius-quotes.openvoiceos:ConfuciusDeath       1.00      1.00      1.00         1
                       ovos-skill-confucius-quotes.openvoiceos:ConfuciusQuote       1.00      1.00      1.00         1
                           ovos-skill-confucius-quotes.openvoiceos:who.intent       1.00      1.00      1.00         4
-                        ovos-skill-date-time.openvoiceos:current_date.intent       1.00      1.00      1.00        23
-                 ovos-skill-date-time.openvoiceos:date.future.weekend.intent       0.99      1.00      0.99       281
-                   ovos-skill-date-time.openvoiceos:date.last.weekend.intent       1.00      0.99      1.00       631
-                      ovos-skill-date-time.openvoiceos:next.leap.year.intent       1.00      1.00      1.00         9
-                          ovos-skill-date-time.openvoiceos:time.until.intent       1.00      1.00      1.00        11
-                    ovos-skill-date-time.openvoiceos:weekday.for.date.intent       1.00      1.00      1.00        45
-                      ovos-skill-date-time.openvoiceos:what.day.is.it.intent       1.00      1.00      1.00        19
-                    ovos-skill-date-time.openvoiceos:what.month.is.it.intent       1.00      1.00      1.00        42
-                     ovos-skill-date-time.openvoiceos:what.time.is.it.intent       1.00      1.00      1.00       559
-                ovos-skill-date-time.openvoiceos:what.time.will.it.be.intent       1.00      1.00      1.00       450
-                  ovos-skill-date-time.openvoiceos:what.weekday.is.it.intent       0.96      1.00      0.98        27
-                     ovos-skill-date-time.openvoiceos:what.year.is.it.intent       1.00      1.00      1.00        14
-             ovos-skill-days-in-history.openvoiceos:births_in_history.intent       1.00      0.50      0.67         2
+                        ovos-skill-date-time.openvoiceos:current_date.intent       1.00      1.00      1.00        46
+                 ovos-skill-date-time.openvoiceos:date.future.weekend.intent       0.99      1.00      1.00       302
+                   ovos-skill-date-time.openvoiceos:date.last.weekend.intent       1.00      1.00      1.00       656
+                      ovos-skill-date-time.openvoiceos:next.leap.year.intent       0.95      1.00      0.97        18
+                          ovos-skill-date-time.openvoiceos:time.until.intent       0.95      1.00      0.98        20
+                    ovos-skill-date-time.openvoiceos:weekday.for.date.intent       0.97      1.00      0.98        65
+                      ovos-skill-date-time.openvoiceos:what.day.is.it.intent       0.89      1.00      0.94        24
+                    ovos-skill-date-time.openvoiceos:what.month.is.it.intent       1.00      1.00      1.00        67
+                     ovos-skill-date-time.openvoiceos:what.time.is.it.intent       0.99      1.00      0.99       305
+                ovos-skill-date-time.openvoiceos:what.time.will.it.be.intent       1.00      1.00      1.00       487
+                  ovos-skill-date-time.openvoiceos:what.weekday.is.it.intent       1.00      0.91      0.95        32
+                     ovos-skill-date-time.openvoiceos:what.year.is.it.intent       1.00      1.00      1.00        16
+             ovos-skill-days-in-history.openvoiceos:births_in_history.intent       1.00      1.00      1.00         2
              ovos-skill-days-in-history.openvoiceos:deaths_in_history.intent       1.00      1.00      1.00         2
               ovos-skill-days-in-history.openvoiceos:today_in_history.intent       1.00      1.00      1.00       289
-                               ovos-skill-ddg.openvoiceos:search_duck.intent       1.00      0.97      0.99        38
-                   ovos-skill-diagnostics.openvoiceos:query_cpu_usage.intent       1.00      0.95      0.98        21
-                 ovos-skill-diagnostics.openvoiceos:query_extra_langs.intent       0.91      1.00      0.95        41
-                         ovos-skill-diagnostics.openvoiceos:query_gpu.intent       0.92      1.00      0.96        12
+                               ovos-skill-ddg.openvoiceos:search_duck.intent       1.00      1.00      1.00        38
+                   ovos-skill-diagnostics.openvoiceos:query_cpu_usage.intent       1.00      1.00      1.00        21
+                 ovos-skill-diagnostics.openvoiceos:query_extra_langs.intent       0.91      0.95      0.93        41
+                         ovos-skill-diagnostics.openvoiceos:query_gpu.intent       1.00      1.00      1.00        12
               ovos-skill-diagnostics.openvoiceos:query_kernel_version.intent       1.00      1.00      1.00        12
                        ovos-skill-diagnostics.openvoiceos:query_langs.intent       0.99      0.98      0.98       164
                 ovos-skill-diagnostics.openvoiceos:query_memory_usage.intent       1.00      0.96      0.98        24
-               ovos-skill-diagnostics.openvoiceos:query_ovos_location.intent       0.98      0.96      0.97        46
-                ovos-skill-diagnostics.openvoiceos:query_primary_lang.intent       1.00      0.99      0.99        88
+               ovos-skill-diagnostics.openvoiceos:query_ovos_location.intent       1.00      1.00      1.00        46
+                ovos-skill-diagnostics.openvoiceos:query_primary_lang.intent       1.00      1.00      1.00        88
                    ovos-skill-diagnostics.openvoiceos:query_user_lang.intent       1.00      1.00      1.00        34
-               ovos-skill-diagnostics.openvoiceos:query_user_location.intent       1.00      0.96      0.98        24
-                     ovos-skill-dictation.openvoiceos:start_dictation.intent       0.99      1.00      0.99       222
+               ovos-skill-diagnostics.openvoiceos:query_user_location.intent       1.00      1.00      1.00        24
+                     ovos-skill-dictation.openvoiceos:start_dictation.intent       1.00      0.99      1.00       222
                       ovos-skill-dictation.openvoiceos:stop_dictation.intent       0.99      1.00      0.99        84
                    ovos-skill-fuster-quotes.openvoiceos:fuster_quotes.intent       1.00      1.00      1.00         8
                              ovos-skill-fuster-quotes.openvoiceos:who.intent       1.00      1.00      1.00         2
-                         ovos-skill-hello-world.openvoiceos:Greetings.intent       0.90      0.90      0.90        42
+                         ovos-skill-hello-world.openvoiceos:Greetings.intent       0.89      0.79      0.84        42
                          ovos-skill-hello-world.openvoiceos:HelloWorldIntent       0.00      0.00      0.00         1
-                           ovos-skill-hello-world.openvoiceos:ThankYouIntent       0.00      0.00      0.00         1
-                          ovos-skill-icanhazdadjokes.openvoiceos:joke.intent       1.00      0.93      0.97        15
-                   ovos-skill-icanhazdadjokes.openvoiceos:search_joke.intent       0.96      1.00      0.98        26
+                           ovos-skill-hello-world.openvoiceos:ThankYouIntent       1.00      1.00      1.00         1
+                          ovos-skill-icanhazdadjokes.openvoiceos:joke.intent       0.79      1.00      0.88        15
+                   ovos-skill-icanhazdadjokes.openvoiceos:search_joke.intent       0.93      0.96      0.94        26
                                           ovos-skill-ip.openvoiceos:IPIntent       1.00      1.00      1.00         1
                                   ovos-skill-ip.openvoiceos:what.ssid.intent       1.00      1.00      1.00        94
                          ovos-skill-iss-location.openvoiceos:NumberISSIntent       1.00      1.00      1.00         1
-                            ovos-skill-iss-location.openvoiceos:WhoISSIntent       0.89      0.89      0.89         9
-                            ovos-skill-iss-location.openvoiceos:about.intent       0.97      1.00      0.99       195
-                         ovos-skill-iss-location.openvoiceos:when_iss.intent       1.00      0.99      1.00       390
-                        ovos-skill-iss-location.openvoiceos:where_iss.intent       0.99      1.00      1.00       105
-                                   ovos-skill-laugh.openvoiceos:Laugh.intent       0.92      0.96      0.94        23
-                             ovos-skill-laugh.openvoiceos:RandomLaugh.intent       1.00      0.95      0.97        20
-                                 ovos-skill-laugh.openvoiceos:haunted.intent       0.71      1.00      0.83         5
-                ovos-skill-moviemaster.openvoiceos:genre.movie.search.intent       0.81      0.81      0.81        21
+                            ovos-skill-iss-location.openvoiceos:WhoISSIntent       1.00      1.00      1.00         9
+                            ovos-skill-iss-location.openvoiceos:about.intent       0.99      1.00      1.00       195
+                         ovos-skill-iss-location.openvoiceos:when_iss.intent       1.00      1.00      1.00       390
+                        ovos-skill-iss-location.openvoiceos:where_iss.intent       1.00      1.00      1.00       105
+                                   ovos-skill-laugh.openvoiceos:Laugh.intent       1.00      1.00      1.00        23
+                             ovos-skill-laugh.openvoiceos:RandomLaugh.intent       0.95      0.95      0.95        20
+                                 ovos-skill-laugh.openvoiceos:haunted.intent       1.00      0.60      0.75         5
+                ovos-skill-moviemaster.openvoiceos:genre.movie.search.intent       0.72      0.86      0.78        21
                    ovos-skill-moviemaster.openvoiceos:genre.tv.search.intent       1.00      1.00      1.00        49
-                        ovos-skill-moviemaster.openvoiceos:movie.cast.intent       0.92      0.92      0.92        12
-                 ovos-skill-moviemaster.openvoiceos:movie.description.intent       1.00      1.00      1.00        54
-                ovos-skill-moviemaster.openvoiceos:movie.genre.search.intent       0.71      0.71      0.71        14
+                        ovos-skill-moviemaster.openvoiceos:movie.cast.intent       1.00      1.00      1.00        12
+                 ovos-skill-moviemaster.openvoiceos:movie.description.intent       1.00      0.98      0.99        54
+                ovos-skill-moviemaster.openvoiceos:movie.genre.search.intent       0.70      0.50      0.58        14
                       ovos-skill-moviemaster.openvoiceos:movie.genres.intent       1.00      1.00      1.00        77
                  ovos-skill-moviemaster.openvoiceos:movie.information.intent       1.00      1.00      1.00       227
-                     ovos-skill-moviemaster.openvoiceos:movie.popular.intent       0.95      0.97      0.96        39
-                  ovos-skill-moviemaster.openvoiceos:movie.production.intent       1.00      0.88      0.93         8
-             ovos-skill-moviemaster.openvoiceos:movie.recommendations.intent       1.00      1.00      1.00       153
-                     ovos-skill-moviemaster.openvoiceos:movie.runtime.intent       1.00      0.95      0.97        38
-                         ovos-skill-moviemaster.openvoiceos:movie.top.intent       0.99      0.99      0.99       240
-                        ovos-skill-moviemaster.openvoiceos:movie.year.intent       1.00      1.00      1.00        29
-                                       ovos-skill-naptime.openvoiceos:WakeUp       0.00      0.00      0.00         1
-                               ovos-skill-naptime.openvoiceos:naptime.intent       0.94      0.85      0.89        40
+                     ovos-skill-moviemaster.openvoiceos:movie.popular.intent       1.00      0.95      0.97        39
+                  ovos-skill-moviemaster.openvoiceos:movie.production.intent       1.00      1.00      1.00         8
+             ovos-skill-moviemaster.openvoiceos:movie.recommendations.intent       1.00      1.00      1.00       152
+                     ovos-skill-moviemaster.openvoiceos:movie.runtime.intent       1.00      0.97      0.99        38
+                         ovos-skill-moviemaster.openvoiceos:movie.top.intent       1.00      1.00      1.00       240
+                        ovos-skill-moviemaster.openvoiceos:movie.year.intent       1.00      0.93      0.96        29
+                                       ovos-skill-naptime.openvoiceos:WakeUp       1.00      1.00      1.00         1
+                               ovos-skill-naptime.openvoiceos:naptime.intent       1.00      0.85      0.92        40
                               ovos-skill-news.openvoiceos:global_news.intent       1.00      1.00      1.00        75
                                      ovos-skill-news.openvoiceos:news.intent       1.00      0.98      0.99       253
-                        ovos-skill-parrot.openvoiceos:did.you.hear.me.intent       0.90      0.75      0.82        12
-                             ovos-skill-parrot.openvoiceos:repeat.stt.intent       0.92      0.92      0.92        12
-                             ovos-skill-parrot.openvoiceos:repeat.tts.intent       0.93      0.93      0.93        54
-                                  ovos-skill-parrot.openvoiceos:speak.intent       1.00      1.00      1.00        10
+                        ovos-skill-parrot.openvoiceos:did.you.hear.me.intent       0.77      0.83      0.80        12
+                             ovos-skill-parrot.openvoiceos:repeat.stt.intent       0.88      0.58      0.70        12
+                             ovos-skill-parrot.openvoiceos:repeat.tts.intent       0.91      0.96      0.94        54
+                                  ovos-skill-parrot.openvoiceos:speak.intent       1.00      0.90      0.95        10
                            ovos-skill-parrot.openvoiceos:start_parrot.intent       0.89      1.00      0.94        17
-                            ovos-skill-parrot.openvoiceos:stop_parrot.intent       0.97      1.00      0.99        35
-                           ovos-skill-personal.openvoiceos:WhatAreYou.intent       0.94      0.94      0.94        16
-                      ovos-skill-personal.openvoiceos:WhenWereYouBorn.intent       1.00      0.96      0.98        23
-                     ovos-skill-personal.openvoiceos:WhereWereYouBorn.intent       0.92      0.96      0.94        23
-                            ovos-skill-personal.openvoiceos:WhoAreYou.intent       1.00      0.50      0.67         8
-                           ovos-skill-personal.openvoiceos:WhoMadeYou.intent       0.95      1.00      0.98        41
-                        ovos-skill-randomness.openvoiceos:flip-a-coin.intent       1.00      1.00      1.00         2
-                     ovos-skill-randomness.openvoiceos:fortune-teller.intent       1.00      0.80      0.89         5
-                      ovos-skill-randomness.openvoiceos:make-a-choice.intent       1.00      0.50      0.67         2
+                            ovos-skill-parrot.openvoiceos:stop_parrot.intent       0.97      0.97      0.97        35
+                           ovos-skill-personal.openvoiceos:WhatAreYou.intent       0.78      0.88      0.82        16
+                      ovos-skill-personal.openvoiceos:WhenWereYouBorn.intent       0.95      0.87      0.91        23
+                     ovos-skill-personal.openvoiceos:WhereWereYouBorn.intent       1.00      0.96      0.98        23
+                            ovos-skill-personal.openvoiceos:WhoAreYou.intent       0.71      0.62      0.67         8
+                           ovos-skill-personal.openvoiceos:WhoMadeYou.intent       1.00      1.00      1.00        41
+                        ovos-skill-randomness.openvoiceos:flip-a-coin.intent       1.00      0.50      0.67         2
+                     ovos-skill-randomness.openvoiceos:fortune-teller.intent       1.00      1.00      1.00         5
+                      ovos-skill-randomness.openvoiceos:make-a-choice.intent       1.00      1.00      1.00         2
                       ovos-skill-randomness.openvoiceos:pick-a-number.intent       1.00      1.00      1.00         3
                  ovos-skill-randomness.openvoiceos:roll-multiple-dice.intent       1.00      1.00      1.00         4
                     ovos-skill-randomness.openvoiceos:roll-single-die.intent       1.00      1.00      1.00         4
                     ovos-skill-screenshot.openvoiceos:take.screenshot.intent       1.00      1.00      1.00         1
                                ovos-skill-volume.openvoiceos:increase_volume       0.00      0.00      0.00         2
                                    ovos-skill-volume.openvoiceos:less_volume       1.00      0.50      0.67         2
-                         ovos-skill-volume.openvoiceos:volume.default.intent       0.91      0.97      0.94        33
-                            ovos-skill-volume.openvoiceos:volume.high.intent       0.86      0.95      0.90        20
+                         ovos-skill-volume.openvoiceos:volume.default.intent       1.00      1.00      1.00        33
+                            ovos-skill-volume.openvoiceos:volume.high.intent       0.90      0.95      0.93        20
                              ovos-skill-volume.openvoiceos:volume.low.intent       0.95      1.00      0.97        19
-                             ovos-skill-volume.openvoiceos:volume.max.intent       1.00      1.00      1.00        23
-                            ovos-skill-volume.openvoiceos:volume.mute.intent       0.80      0.89      0.84        18
-                     ovos-skill-volume.openvoiceos:volume.mute.toggle.intent       0.80      0.50      0.62         8
-                          ovos-skill-volume.openvoiceos:volume.unmute.intent       0.94      0.80      0.86        20
+                             ovos-skill-volume.openvoiceos:volume.max.intent       1.00      0.96      0.98        23
+                            ovos-skill-volume.openvoiceos:volume.mute.intent       1.00      0.89      0.94        18
+                     ovos-skill-volume.openvoiceos:volume.mute.toggle.intent       0.88      0.88      0.88         8
+                          ovos-skill-volume.openvoiceos:volume.unmute.intent       1.00      0.95      0.97        20
                        ovos-skill-wallpapers.openvoiceos:MakeWallpaperIntent       1.00      1.00      1.00         1
-                     ovos-skill-wallpapers.openvoiceos:picture.random.intent       1.00      1.00      1.00         1
+                      ovos-skill-wallpapers.openvoiceos:picture.about.intent       0.00      0.00      0.00         1
+                     ovos-skill-wallpapers.openvoiceos:picture.random.intent       0.50      1.00      0.67         1
                     ovos-skill-wallpapers.openvoiceos:wallpaper.about.intent       1.00      1.00      1.00         1
                    ovos-skill-wallpapers.openvoiceos:wallpaper.random.intent       1.00      1.00      1.00         1
-                       ovos-skill-weather.openvoiceos:N_days_forecast.intent       0.86      1.00      0.92        30
-                   ovos-skill-weather.openvoiceos:current_temperature.intent       0.95      0.95      0.95        19
-                       ovos-skill-weather.openvoiceos:current_weather.intent       0.89      0.94      0.91        17
-                        ovos-skill-weather.openvoiceos:daily_forecast.intent       0.99      1.00      0.99        96
-                      ovos-skill-weather.openvoiceos:high_temperature.intent       0.96      1.00      0.98        54
-                       ovos-skill-weather.openvoiceos:hourly_forecast.intent       1.00      1.00      1.00       315
-                    ovos-skill-weather.openvoiceos:hourly_temperature.intent       1.00      0.95      0.97        95
-                              ovos-skill-weather.openvoiceos:humidity.intent       1.00      0.88      0.93         8
-                              ovos-skill-weather.openvoiceos:is_clear.intent       0.88      0.94      0.91        16
-                                ovos-skill-weather.openvoiceos:is_fog.intent       1.00      1.00      1.00        10
-                               ovos-skill-weather.openvoiceos:is_rain.intent       0.98      0.99      0.98        87
-                               ovos-skill-weather.openvoiceos:is_snow.intent       1.00      0.80      0.89        10
-                             ovos-skill-weather.openvoiceos:is_stormy.intent       1.00      1.00      1.00        11
-                               ovos-skill-weather.openvoiceos:is_wind.intent       1.00      1.00      1.00        14
-                       ovos-skill-weather.openvoiceos:low_temperature.intent       0.98      1.00      0.99        43
-                             ovos-skill-weather.openvoiceos:next_rain.intent       1.00      0.67      0.80         6
-                               ovos-skill-weather.openvoiceos:sunrise.intent       0.88      0.88      0.88         8
-                                ovos-skill-weather.openvoiceos:sunset.intent       1.00      0.88      0.93         8
-                      ovos-skill-weather.openvoiceos:weekend_forecast.intent       1.00      1.00      1.00        18
-                               ovos-skill-wikihow.openvoiceos:wikihow.intent       1.00      1.00      1.00        59
-                                ovos-skill-wikipedia.openvoiceos:wiki.intent       0.99      0.99      0.99        96
+                       ovos-skill-weather.openvoiceos:N_days_forecast.intent       1.00      0.99      0.99        73
+                   ovos-skill-weather.openvoiceos:current_temperature.intent       0.96      0.94      0.95        50
+                       ovos-skill-weather.openvoiceos:current_weather.intent       0.91      1.00      0.95        48
+                        ovos-skill-weather.openvoiceos:daily_forecast.intent       1.00      0.99      1.00       310
+                      ovos-skill-weather.openvoiceos:high_temperature.intent       1.00      0.99      1.00       164
+                       ovos-skill-weather.openvoiceos:hourly_forecast.intent       0.99      1.00      1.00       960
+                    ovos-skill-weather.openvoiceos:hourly_temperature.intent       0.99      0.99      0.99       354
+                              ovos-skill-weather.openvoiceos:humidity.intent       0.87      0.91      0.89        22
+                              ovos-skill-weather.openvoiceos:is_clear.intent       0.97      0.95      0.96        41
+                                ovos-skill-weather.openvoiceos:is_fog.intent       1.00      1.00      1.00        29
+                               ovos-skill-weather.openvoiceos:is_rain.intent       0.97      0.98      0.98       112
+                               ovos-skill-weather.openvoiceos:is_snow.intent       1.00      1.00      1.00        26
+                             ovos-skill-weather.openvoiceos:is_stormy.intent       1.00      1.00      1.00        32
+                               ovos-skill-weather.openvoiceos:is_wind.intent       1.00      1.00      1.00        46
+                       ovos-skill-weather.openvoiceos:low_temperature.intent       0.99      0.99      0.99       144
+                             ovos-skill-weather.openvoiceos:next_rain.intent       1.00      1.00      1.00        11
+                               ovos-skill-weather.openvoiceos:sunrise.intent       1.00      0.95      0.97        19
+                                ovos-skill-weather.openvoiceos:sunset.intent       1.00      1.00      1.00        18
+                      ovos-skill-weather.openvoiceos:weekend_forecast.intent       0.97      0.99      0.98        67
+                               ovos-skill-wikihow.openvoiceos:wikihow.intent       1.00      0.98      0.99        59
+                                ovos-skill-wikipedia.openvoiceos:wiki.intent       1.00      0.98      0.99        96
                         ovos-skill-wikipedia.openvoiceos:wikiroulette.intent       0.99      1.00      1.00       112
                           ovos-skill-wolfie.openvoiceos:search_wolfie.intent       1.00      1.00      1.00        67
-                               ovos-skill-wordnet.openvoiceos:antonym.intent       0.94      1.00      0.97        16
+                               ovos-skill-wordnet.openvoiceos:antonym.intent       1.00      0.94      0.97        16
                             ovos-skill-wordnet.openvoiceos:definition.intent       0.80      0.80      0.80         5
-                               ovos-skill-wordnet.openvoiceos:holonym.intent       0.88      0.94      0.91        16
-                              ovos-skill-wordnet.openvoiceos:hypernym.intent       1.00      0.91      0.95        32
+                               ovos-skill-wordnet.openvoiceos:holonym.intent       1.00      1.00      1.00        16
+                              ovos-skill-wordnet.openvoiceos:hypernym.intent       0.97      0.97      0.97        32
                                ovos-skill-wordnet.openvoiceos:hyponym.intent       1.00      1.00      1.00        65
-                                 ovos-skill-wordnet.openvoiceos:lemma.intent       1.00      1.00      1.00        12
+                                 ovos-skill-wordnet.openvoiceos:lemma.intent       1.00      0.92      0.96        12
                         ovos-skill-wordnet.openvoiceos:search_wordnet.intent       0.96      1.00      0.98        22
-                                                                   stop:stop       0.98      1.00      0.99        41
+                                                                   stop:stop       0.95      1.00      0.98        41
 
-                                                                    accuracy                           0.99     14083
-                                                                   macro avg       0.91      0.89      0.90     14083
-                                                                weighted avg       0.99      0.99      0.99     14083
+                                                                    accuracy                           0.99     15671
+                                                                   macro avg       0.94      0.92      0.93     15671
+                                                                weighted avg       0.99      0.99      0.99     15671
 
 ```
 
